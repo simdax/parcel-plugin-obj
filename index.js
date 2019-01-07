@@ -1,3 +1,3 @@
 module.exports = function (bundler) {
-  bundler.addAssetType('obj', require.resolve('./glsl-asset'));
+  bundler.addAssetType('obj', require.resolve('./obj-asset'));
 };
